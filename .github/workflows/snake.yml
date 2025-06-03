@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Ejecutar diariamente a medianoche UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -12,6 +12,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout repository
@@ -25,11 +29,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "Update snake animation [ci skip]"
+          artifact_name: github-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
