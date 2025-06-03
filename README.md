@@ -43,11 +43,7 @@ _Tecnologías: JavaScript, Google Maps API, HTML, CSS_
 ---
 
 ### 
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C1fon/C1fon/output/github-snake-dark.svg" />
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/C1fon/C1fon/output/github-snake.svg" />
-<img alt="github-snake" src="https://raw.githubusercontent.com/C1fon/C1fon/output/github-snake.svg" />
-</picture>
+<img src="https://bamotta.github.io/bamotta/snake.svg" alt="Snake animation" />
 
 ### 💬 Sobre mí
 
