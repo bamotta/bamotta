@@ -42,7 +42,7 @@ _Tecnologías: JavaScript, Google Maps API, HTML, CSS_
 
 ---
 
-### 
+### 🗒️ Contributions
 <img src="https://bamotta.github.io/bamotta/snake.svg" alt="Snake animation" />
 
 
