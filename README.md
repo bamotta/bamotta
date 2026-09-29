@@ -34,14 +34,6 @@ _Tecnologías: JavaScript, Google Maps API, HTML, CSS_
 
 ---
 
-### 📈 Estadísticas
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bamotta&show_icons=true&theme=github_dark" alt="Estadísticas de GitHub" />
-</p>
-
----
-
 ### 🗒️ Contributions
 <img src="https://bamotta.github.io/bamotta/snake.svg" alt="Snake animation" />
 
